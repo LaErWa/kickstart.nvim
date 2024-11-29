@@ -63,7 +63,7 @@ keymap({"n", "v"}, "<leader>po", "<cmd>lua require('vscode').action('projectMana
 keymap({"n", "v"}, "<leader>pe", "<cmd>lua require('vscode').action('projectManager.editProjects')<CR>")
 
 -- julia keymaps
-keymap({"n", "v"}, "<leader>jr", "<cmd>lua require('vscode').action('language-julia.restartREPL')")
-keymap({"n", "v"}, "<leader>js", "<cmd>lua require('vscode').action('language-julia.startREPL')")
-keymap({"n", "v"}, "<leader>jq", "<cmd>lua require('vscode').action('language-julia.startREPL')")
-keymap({"n", "v"}, "<leader>jf", "<cmd>lua require('vscode').action('language-julia.executeActiveFile')")
+keymap({"n", "v"}, "<leader>jr", "<cmd>lua require('vscode').action('language-julia.restartREPL')<CR>")
+keymap({"n", "v"}, "<leader>js", "<cmd>lua require('vscode').action('language-julia.startREPL')<CR>")
+keymap({"n", "v"}, "<leader>jq", "<cmd>lua require('vscode').action('language-julia.stopREPL')<CR>")
+keymap({"n", "v"}, "<leader>jf", "<cmd>lua require('vscode').action('language-julia.executeActiveFile')<CR>")
